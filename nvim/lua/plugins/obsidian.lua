@@ -23,8 +23,11 @@ return {
         path = "/Users/jon/Library/Mobile Documents/iCloud~md~obsidian/Documents/Notes",
       },
     },
-
-    -- see below for full list of options 👇
+    templates = {
+      subdir = "Templates",
+      date_format = "%Y-%m-%d-%a",
+      time_format = "%H:%M",
+    }
   },
 }
 
