@@ -13,13 +13,9 @@ return {
 					"lua_ls",
 					"eslint",
 					"helm_ls",
-					"html",
-					"htmx",
 					"tsserver",
-					"marksman",
 					"rust_analyzer",
 					"tailwindcss",
-					"terraformls",
 					"tflint",
 				},
 			})
@@ -32,9 +28,6 @@ return {
 			local lspconfig = require("lspconfig")
 			lspconfig.lua_ls.setup({
 				capabilities = capabilities,
-			})
-			lspconfig.terraformls.setup({
-				capabilities = capabilities
 			})
 			lspconfig.tflint.setup({
 				capabilities = capabilities

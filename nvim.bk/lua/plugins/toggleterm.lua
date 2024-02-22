@@ -1,5 +1,5 @@
 return {
-  "akinsho/toggleterm.nvim",
+  'akinsho/toggleterm.nvim',
   version = "*",
   opts = {
     size = 20,
@@ -22,5 +22,5 @@ return {
         background = "Normal",
       },
     },
-  },
+  }
 }

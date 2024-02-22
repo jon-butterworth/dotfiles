@@ -16,6 +16,9 @@ return {
       require("luasnip.loaders.from_vscode").lazy_load()
 
       cmp.setup({
+        experimental = {
+          ghost_text = true,
+        },
         snippet = {
           expand = function(args)
             require("luasnup").lsp_expand(args.body)
@@ -42,3 +45,4 @@ return {
     end,
   },
 }
+

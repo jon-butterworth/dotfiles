@@ -8,6 +8,8 @@ return {
 				null_ls.builtins.diagnostics.eslint_d,
         null_ls.builtins.formatting.prettier,
 				null_ls.builtins.completion.spell,
+        null_ls.builtins.formatting.terraform_fmt,
+        null_ls.builtins.diagnostics.terraform_validate,
 			},
 		})
 		vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {})

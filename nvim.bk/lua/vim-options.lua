@@ -10,3 +10,7 @@ vim.o.mouse = ''
 vim.o.hlsearch = false
 vim.o.termguicolors = true
 
+vim.keymap.set('n', '<C-h>', ':wincmd h<CR>')
+vim.keymap.set('n', '<C-l>', ':wincmd l<CR>')
+
+vim.keymap.set('n', '<C-w>f>', '<C-w>vgf')
