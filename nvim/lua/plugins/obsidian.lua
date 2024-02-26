@@ -7,6 +7,8 @@ return {
     dependencies = {
       "nvim-lua/plenary.nvim",
     },
+    vim.keymap.set("n", "<leader>nn", ":ObsidianNew note<CR>"),
+    vim.keymap.set("n", "<leader>nt", ":ObsidianToday<CR>"),
     config = function(_, opts)
       require("obsidian").setup(opts)
     end,
